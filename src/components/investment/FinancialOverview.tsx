@@ -31,7 +31,7 @@ const FinancialOverview = () => {
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                    Annual Revenue: $15M–$18M
+                     5-Year Cumulative Local Economic Stimulus: over $450MM USD.
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
