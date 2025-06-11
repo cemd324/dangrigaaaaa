@@ -89,18 +89,6 @@ const FinancialOverview = () => {
                   <p className="font-medium text-white">Term</p>
                   <p className="text-lg text-gray-300">15 years</p>
                 </div>
-
-                <div className="p-4 bg-blue-800 rounded-lg">
-                  <p className="font-medium text-white">Interest Rate</p>
-                  <p className="text-lg text-gray-300">LIBOR + 2%, fixed</p>
-                </div>
-
-                <div className="p-4 bg-blue-800 rounded-lg">
-                  <p className="font-medium text-white">Repayment</p>
-                  <p className="text-lg text-gray-300">Semiannual payments</p>
-                </div>
-              </div>
-
               <div className="p-4 bg-blue-800 rounded-lg">
                 <p className="font-medium text-white">Collateral</p>
                 <p className="text-lg text-gray-300">Project assets and concession rights</p>
