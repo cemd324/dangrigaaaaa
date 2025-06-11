@@ -53,8 +53,10 @@ const Navbar = () => {
               />
             </Link>
             <span className="text-black mx-2">by</span>
-            <button
-              onClick={() => window.open('https://www.thelegacyholding.com/', '_blank')}
+            <a
+              href="https://www.thelegacyholding.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-none p-2 rounded-xl hover:opacity-80 transition-opacity"
             >
               <img 
@@ -62,7 +64,7 @@ const Navbar = () => {
                 alt="Legacy Holding Logo" 
                 className="h-[calc(96vh*0.06)] md:h-12 w-auto"
               />
-            </button>
+            </a>
           </div>
 
           {/* Desktop Navigation */}

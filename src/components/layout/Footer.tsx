@@ -19,8 +19,10 @@ const Footer = () => {
                 />
               </Link>
               <span className="text-white mx-2">by</span>
-              <button
-                onClick={() => window.open('https://www.thelegacyholding.com/', '_blank')}
+              <a
+                href="https://www.thelegacyholding.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white p-2 rounded-xl hover:opacity-80 transition-opacity"
               >
                 <img 
@@ -28,7 +30,7 @@ const Footer = () => {
                   alt="Legacy Holding Logo" 
                   className="h-6 w-auto"
                 />
-              </button>
+              </a>
             </div>
             <p className="text-gray-300 text-sm mt-4">
               A visionary project set to redefine travel, trade, and culture in Southern Belize, opening new gateways to extraordinary adventures.
