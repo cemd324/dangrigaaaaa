@@ -10,21 +10,26 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Logo and brief description */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center space-x-4">
-              <img 
-                src="https://i.imgur.com/8R9zHDH.jpeg" 
-                alt="Port of Dangriga Logo" 
-                className="h-12 w-auto rounded-xl"
-              />
+            <div className="flex items-center space-x-4">
+              <Link to="/">
+                <img 
+                  src="https://i.imgur.com/8R9zHDH.jpeg" 
+                  alt="Port of Dangriga Logo" 
+                  className="h-12 w-auto rounded-xl"
+                />
+              </Link>
               <span className="text-white mx-2">by</span>
-              <div className="bg-white p-2 rounded-xl">
+              <button
+                onClick={() => window.open('https://www.thelegacyholding.com/', '_blank')}
+                className="bg-white p-2 rounded-xl hover:opacity-80 transition-opacity"
+              >
                 <img 
                   src="https://i.imgur.com/r7uvPhd.jpeg" 
-                  alt="Parent Company Logo" 
+                  alt="Legacy Holding Logo" 
                   className="h-6 w-auto"
                 />
-              </div>
-            </Link>
+              </button>
+            </div>
             <p className="text-gray-300 text-sm mt-4">
               A visionary project set to redefine travel, trade, and culture in Southern Belize, opening new gateways to extraordinary adventures.
             </p>

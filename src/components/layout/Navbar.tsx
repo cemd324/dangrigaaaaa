@@ -44,21 +44,26 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-4">
-            <img 
-              src="https://i.imgur.com/tBmdhmC.png" 
-              alt="Port of Dangriga Logo" 
-              className="h-24 md:h-24 w-auto rounded-xl"
-            />
+          <div className="flex items-center space-x-4">
+            <Link to="/">
+              <img 
+                src="https://i.imgur.com/tBmdhmC.png" 
+                alt="Port of Dangriga Logo" 
+                className="h-24 md:h-24 w-auto rounded-xl"
+              />
+            </Link>
             <span className="text-black mx-2">by</span>
-            <div className="bg-none p-2 rounded-xl">
+            <button
+              onClick={() => window.open('https://www.thelegacyholding.com/', '_blank')}
+              className="bg-none p-2 rounded-xl hover:opacity-80 transition-opacity"
+            >
               <img 
                 src="https://i.imgur.com/r7uvPhd.jpeg" 
-                alt="Parent Company Logo" 
+                alt="Legacy Holding Logo" 
                 className="h-[calc(96vh*0.06)] md:h-12 w-auto"
               />
-            </div>
-          </Link>
+            </button>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex">
