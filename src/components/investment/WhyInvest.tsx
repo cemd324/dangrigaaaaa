@@ -6,7 +6,7 @@ const WhyInvest = () => {
       icon: <Users size={24} className="text-teal-500" />,
       title: "Proven Market Demand",
       points: [
-        "150,000+ projected annual visitors",
+        "500 000+ projected annual visitors",
         "Strategic location on established cruise routes",
         "Growing Caribbean cruise market"
       ]
